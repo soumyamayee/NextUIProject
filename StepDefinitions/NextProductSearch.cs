@@ -3,7 +3,7 @@ using OpenQA.Selenium.Chrome;
 using NUnit.Framework;
 using NextUISpecFlowPOM.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using AventStack.ExtentReports.Gherkin.Model;
 namespace NextUISpecFlowPOM.StepDefinitions
 {
     [Binding]
@@ -21,18 +21,18 @@ namespace NextUISpecFlowPOM.StepDefinitions
             homePage = new HomePage(driver);
             skinCareProducts = new SkinCareProducts(driver);
         }
-        [AfterScenario]
+       /* [AfterScenario]
         public void TearDown() {
             if (driver != null) { 
                 driver.Quit();
             }
-        }
+        }*/
 
         [Given(@"User on Next Home Page")]
         public void GivenUserOnNextHomePage()
         {
             Console.WriteLine("Title is " + driver.Title);
-            Assert.Equals("https://www.next.co.uk/", driver.Title);
+            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual("Next Official Site: Online Fashion, Kids Clothes & Homeware", driver.Title);
 
         }
 
@@ -63,8 +63,22 @@ namespace NextUISpecFlowPOM.StepDefinitions
         [Then(@"User verify only the ""([^""]*)"" brand products displayed")]
         public void ThenUserVerifyOnlyTheBrandProductsDisplayed(string type)
         {
-            skinCareProducts.VerifyProductsTitle(type);
+            Boolean statusFlag=skinCareProducts.VerifyProductsTitle(type);
+            if (statusFlag)
+            {
+                NUnit.Framework.Assert.Pass("All displayed products are from the expected brand: " + type);
+            }
+            else {
+                NUnit.Framework.Assert.Fail("All displayed products are not from the expected brand: " + type);
+            }
+
         }
+        [Then(@"User select Sort ""([^""]*)"" filter")]
+        public void ThenUserSelectSortFilter(string sortByValue)
+        {
+            
+        }
+
 
 
     }

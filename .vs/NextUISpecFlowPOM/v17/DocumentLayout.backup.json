@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\",
+  "WorkspaceRootPath": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuispecflowpom\\pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuispecflowpom\\stepdefinitions\\nextproductsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\stepdefinitions\\nextproductsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:stepdefinitions\\nextproductsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuispecflowpom\\features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuispecflowpom\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuispecflowpom\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,24 +36,23 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "BasePage.cs",
-              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Pages\\BasePage.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\BasePage.cs",
               "RelativeDocumentMoniker": "Pages\\BasePage.cs",
-              "ToolTip": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Pages\\BasePage.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\BasePage.cs",
               "RelativeToolTip": "Pages\\BasePage.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADwvzgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T13:14:43.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T13:14:43.496Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "WomenSkinCare.feature",
-              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Features\\WomenSkinCare.feature",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Features\\WomenSkinCare.feature",
               "RelativeDocumentMoniker": "Features\\WomenSkinCare.feature",
-              "ToolTip": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Features\\WomenSkinCare.feature",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Features\\WomenSkinCare.feature",
               "RelativeToolTip": "Features\\WomenSkinCare.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-04T12:09:33.557Z",
               "EditorCaption": ""
@@ -62,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NextProductSearch.cs",
-              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\StepDefinitions\\NextProductSearch.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\StepDefinitions\\NextProductSearch.cs",
               "RelativeDocumentMoniker": "StepDefinitions\\NextProductSearch.cs",
-              "ToolTip": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\StepDefinitions\\NextProductSearch.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\StepDefinitions\\NextProductSearch.cs",
               "RelativeToolTip": "StepDefinitions\\NextProductSearch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAE4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:00:06.972Z",
               "EditorCaption": ""
@@ -75,11 +74,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Pages\\HomePage.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\HomePage.cs",
               "RelativeDocumentMoniker": "Pages\\HomePage.cs",
-              "ToolTip": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Pages\\HomePage.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\HomePage.cs",
               "RelativeToolTip": "Pages\\HomePage.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:12:55.871Z",
               "EditorCaption": ""
@@ -88,11 +87,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SkinCareProducts.cs",
-              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Pages\\SkinCareProducts.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\SkinCareProducts.cs",
               "RelativeDocumentMoniker": "Pages\\SkinCareProducts.cs",
-              "ToolTip": "C:\\Soumya\\Projects\\NextUISpecFlowPOM\\Pages\\SkinCareProducts.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\SkinCareProducts.cs",
               "RelativeToolTip": "Pages\\SkinCareProducts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwEwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:13:25.132Z",
               "EditorCaption": ""
