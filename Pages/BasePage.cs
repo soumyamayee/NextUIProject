@@ -57,5 +57,8 @@ namespace NextUISpecFlowPOM.Pages
         protected IList<IWebElement> FindAllElements(By locator) { 
            return driver.FindElements(locator);
         }
+        public void WaitFor() { 
+            Thread.Sleep(1000);
+        }
     }
 }
