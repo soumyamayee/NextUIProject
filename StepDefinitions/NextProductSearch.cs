@@ -74,12 +74,25 @@ namespace NextUISpecFlowPOM.StepDefinitions
 
         }
         [Then(@"User select Sort ""([^""]*)"" filter")]
-        public void ThenUserSelectSortFilter(string sortByValue)
+        public void ThenUserSelectSortFilter(string sortValue)
         {
-            
+            skinCareProducts.SelectSortByList(sortValue);
         }
 
+        [Then(@"User verify the products are displayed from ""([^""]*)""")]
+        public void ThenUserVerifyTheProductsAreDisplayedFrom(string sortValue)
+        {
+            Boolean statusFlag = skinCareProducts.VerifyPriceSort(sortValue);
+            if (statusFlag) {
+                NUnit.Framework.Assert.Pass("The prices are correctly sorted in descending order.");
+            }
+            else
+            {
+                NUnit.Framework.Assert.Fail("The prices are correctly sorted in descending order. ");
+            }
+        }
 
+        
 
     }
 }

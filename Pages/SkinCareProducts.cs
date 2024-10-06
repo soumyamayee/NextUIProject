@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,15 +19,24 @@ namespace NextUISpecFlowPOM.Pages
         static String text = "";
 
         By genderWomen = By.XPath("//div[@data-testid='horizontal-filter-facet-Women']//input[@type='checkbox']");
-        By listOfAllProducts = By.XPath("//div[contains(@data-testid,'product_tile_card_content_')]//p[@data-testid='product_summary_title']");
-
+        By listOfAllProducts = By.XPath("//p[@data-testid='product_summary_title']");
+        By moreOption = By.XPath("//span[@data-testid='plp-horizontal-filter-more-less-icon']");
+        By sortFilter = By.Id("desktop-sort-select");
         public void ClickOnFilter(string catagory)
         {
             try
             {
-                By horizontalMainFilter = By.XPath("//button[@data-testid='plp-filter-label-button-" + catagory + "']");
-                JSScrollToElement(horizontalMainFilter);
-                ClickOnElement(horizontalMainFilter);
+                if (catagory.Equals("More"))
+                {
+                    JSScrollToElement(moreOption);
+                    ClickOnElement(moreOption);
+                }
+                else {
+                    By horizontalMainFilter = By.XPath("//button[@data-testid='plp-filter-label-button-" + catagory + "']");
+                    JSScrollToElement(horizontalMainFilter);
+                    ClickOnElement(horizontalMainFilter);
+                }
+               
             }
             catch (Exception ex)
             {
@@ -53,29 +63,81 @@ namespace NextUISpecFlowPOM.Pages
             {
                 type = "Beauty Box";
             }
+            WaitFor();
             IList<IWebElement> allElements = driver.FindElements(listOfAllProducts);
             Boolean foundMisMatch = false;
             
             for (int i = 0; i < driver.FindElements(listOfAllProducts).Count; i++)
             {
+                WaitFor();
                 IWebElement ele = driver.FindElements(listOfAllProducts)[i];
                 String title = ele.GetAttribute("title");                
-                Thread.Sleep(1000);
+               
                 if ((!title.Contains(type)) && (!title.Contains("Skin")) && (!title.Contains("Face")) && (!title.Contains("Clarins")))
                 {
                     foundMisMatch = true;
                     Console.WriteLine("Displayed product is not from the Expected Brand " + type + " Rather it's from " + title + " Brand.");
                 }
             }
-            if (foundMisMatch)
+            if (!foundMisMatch)
             {
-                return false;
+                return true;
             }
             else {
-                return true;
+                return false;
             }
            
             
+        }
+        public void SelectSortByList(String sortByValue)
+        {
+            //SelectElement dropDown =new SelectElement(FindElement(sortFilter));
+            //dropDown.SelectByValue(sortByValue);
+            By eleSortByCategory = By.XPath("//ul[@role='listbox']//span[text()='"+ sortByValue + "']");
+            ClickOnElement(sortFilter);
+            ClickOnElement(eleSortByCategory);
+
+        }
+        public Boolean VerifyPriceSort(String sortByValue) {
+            WaitFor();
+            IList <IWebElement> allProducts = driver.FindElements(listOfAllProducts);
+            Console.WriteLine("All products count is " + allProducts.Count);
+            IList <double> priceList= new List<double>();
+           
+            foreach (IWebElement eleProduct in allProducts) {
+               
+                WaitFor();
+                String text = eleProduct.GetAttribute("title");
+                Console.WriteLine("Product Title is " + text);
+                 text = eleProduct.GetAttribute("title").Split("|")[1].Replace("£","").Trim();
+                Console.WriteLine("The Price value is "+ text);
+                double price = double.Parse(text);
+                priceList.Add(price);             
+
+            }
+            IList<double> expectedPriceList = new List<double>(priceList);
+            if (sortByValue.Contains("High to low price"))
+            {
+                expectedPriceList.OrderByDescending(price => price).ToList();
+            }
+            else
+            {
+                expectedPriceList.OrderBy(price => price).ToList();
+
+            }
+            
+           
+           
+
+            if (priceList.SequenceEqual(expectedPriceList))
+            {
+                Console.WriteLine("The prices are correctly sorted in descending order.");
+                return true;
+            }
+            else{
+                Console.WriteLine("The prices are not correctly sorted in descending order.");
+                return false;
+            }
         }
 
     }
