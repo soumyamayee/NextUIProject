@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\stepdefinitions\\nextproductsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:stepdefinitions\\nextproductsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,35 @@
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\utils\\screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:utils\\screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\nextuispecflowpom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:nextuispecflowpom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\reports\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:reports\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:features\\womenskincare.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UNIVERSAL MOBILES\\AppData\\Roaming\\Microsoft\\UserSecrets\\fc50b6a2-1bc0-4304-a43b-b06a58c22f7b\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|c:\\soumya\\projects\\nextuiprojectgithub\\pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AC42E5-95D1-4F5B-99CA-E2CA012FB2FE}|NextUISpecFlowPOM.csproj|solutionrelative:pages\\skincareproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +49,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WomenSkinCare.feature",
-              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Features\\WomenSkinCare.feature",
-              "RelativeDocumentMoniker": "Features\\WomenSkinCare.feature",
-              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Features\\WomenSkinCare.feature",
-              "RelativeToolTip": "Features\\WomenSkinCare.feature",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-05T23:19:14.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BasePage.cs",
               "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\BasePage.cs",
               "RelativeDocumentMoniker": "Pages\\BasePage.cs",
               "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\BasePage.cs",
               "RelativeToolTip": "Pages\\BasePage.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAjwDsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:14:43.496Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Screenshot.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Utils\\Screenshot.cs",
+              "RelativeDocumentMoniker": "Utils\\Screenshot.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Utils\\Screenshot.cs",
+              "RelativeToolTip": "Utils\\Screenshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T14:51:34.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NextUISpecFlowPOM",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\NextUISpecFlowPOM.csproj",
+              "RelativeDocumentMoniker": "NextUISpecFlowPOM.csproj",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\NextUISpecFlowPOM.csproj",
+              "RelativeToolTip": "NextUISpecFlowPOM.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T13:10:40.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportManager.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Reports\\ReportManager.cs",
+              "RelativeDocumentMoniker": "Reports\\ReportManager.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Reports\\ReportManager.cs",
+              "RelativeToolTip": "Reports\\ReportManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:41:03.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "NextProductSearch.cs",
               "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\StepDefinitions\\NextProductSearch.cs",
               "RelativeDocumentMoniker": "StepDefinitions\\NextProductSearch.cs",
               "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\StepDefinitions\\NextProductSearch.cs",
               "RelativeToolTip": "StepDefinitions\\NextProductSearch.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAADwv10AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:00:06.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "ImplicitUsings.cs",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\ImplicitUsings.cs",
+              "RelativeDocumentMoniker": "ImplicitUsings.cs",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\ImplicitUsings.cs",
+              "RelativeToolTip": "ImplicitUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:27:56.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WomenSkinCare.feature",
+              "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Features\\WomenSkinCare.feature",
+              "RelativeDocumentMoniker": "Features\\WomenSkinCare.feature",
+              "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Features\\WomenSkinCare.feature",
+              "RelativeToolTip": "Features\\WomenSkinCare.feature",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-05T23:19:14.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\UNIVERSAL MOBILES\\AppData\\Roaming\\Microsoft\\UserSecrets\\fc50b6a2-1bc0-4304-a43b-b06a58c22f7b\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\UNIVERSAL MOBILES\\AppData\\Roaming\\Microsoft\\UserSecrets\\fc50b6a2-1bc0-4304-a43b-b06a58c22f7b\\secrets.json",
+              "ToolTip": "C:\\Users\\UNIVERSAL MOBILES\\AppData\\Roaming\\Microsoft\\UserSecrets\\fc50b6a2-1bc0-4304-a43b-b06a58c22f7b\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\Users\\UNIVERSAL MOBILES\\AppData\\Roaming\\Microsoft\\UserSecrets\\fc50b6a2-1bc0-4304-a43b-b06a58c22f7b\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T09:29:42.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomePage.cs",
               "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\HomePage.cs",
               "RelativeDocumentMoniker": "Pages\\HomePage.cs",
               "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\HomePage.cs",
               "RelativeToolTip": "Pages\\HomePage.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:12:55.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "SkinCareProducts.cs",
               "DocumentMoniker": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\SkinCareProducts.cs",
               "RelativeDocumentMoniker": "Pages\\SkinCareProducts.cs",
               "ToolTip": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\Pages\\SkinCareProducts.cs",
               "RelativeToolTip": "Pages\\SkinCareProducts.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAIwHIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAcwA4BAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:13:25.132Z",
               "EditorCaption": ""

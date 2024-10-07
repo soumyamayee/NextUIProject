@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fc50b6a2-1bc0-4304-a43b-b06a58c22f7b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NextUISpecFlowPOM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+660dc06ba3ec97a2ac58aba176cf4f74142e7dc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72db7102490b148158513acd31e23aa173a705e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("NextUISpecFlowPOM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NextUISpecFlowPOM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
