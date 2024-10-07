@@ -74,15 +74,15 @@ namespace NextUISpecFlowPOM.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Verify Women\'s Skincare Products Sort by Price: Low - High filter")]
-        [NUnit.Framework.CategoryAttribute("Testcase4")]
-        public virtual void VerifyWomensSkincareProductsSortByPriceLow_HighFilter()
+        [NUnit.Framework.DescriptionAttribute("Verify Women\'s Skincare Products by selecting Price range")]
+        [NUnit.Framework.CategoryAttribute("Testcase5")]
+        public virtual void VerifyWomensSkincareProductsBySelectingPriceRange()
         {
             string[] tagsOfScenario = new string[] {
-                    "Testcase4"};
+                    "Testcase5"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Women\'s Skincare Products Sort by Price: Low - High filter", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 30
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Women\'s Skincare Products by selecting Price range", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 39
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -102,26 +102,8 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 31
+#line 40
  testRunner.Given("User on Next Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 32
- testRunner.When("User Navigated to the \"Women\" section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 33
- testRunner.Then("User select \"Skincare\" category", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 34
- testRunner.Then("User Click on \"brand\" filter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 35
- testRunner.Then("User Click on \"Clarins\" brand", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 36
- testRunner.And("User select Sort \"Price: Low - High\" filter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 37
- testRunner.Then("User verify the products are displayed from \"Low to high price\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

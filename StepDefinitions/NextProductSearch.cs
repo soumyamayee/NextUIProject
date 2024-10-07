@@ -3,7 +3,10 @@ using OpenQA.Selenium.Chrome;
 using NUnit.Framework;
 using NextUISpecFlowPOM.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AventStack.ExtentReports.Gherkin.Model;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
+using NextUISpecFlowPOM.Reports;
+
 namespace NextUISpecFlowPOM.StepDefinitions
 {
     [Binding]
@@ -12,21 +15,31 @@ namespace NextUISpecFlowPOM.StepDefinitions
         IWebDriver driver;
         HomePage homePage;
         SkinCareProducts skinCareProducts;
+        
+        // Setup report
+        
+
         [BeforeScenario]
         public void Setup()
         {
+            ReportManager.InitializeReport();
+            ReportManager.CreateTest("My First Test");
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://www.next.co.uk");
             homePage = new HomePage(driver);
             skinCareProducts = new SkinCareProducts(driver);
+            ReportManager.LogPass("Navigated to Next Home Page");
         }
-       /* [AfterScenario]
-        public void TearDown() {
-            if (driver != null) { 
+        [AfterScenario]
+        public void TearDown()
+        {
+            if (driver != null)
+            {
+                
                 driver.Quit();
             }
-        }*/
+        }
 
         [Given(@"User on Next Home Page")]
         public void GivenUserOnNextHomePage()
@@ -91,8 +104,24 @@ namespace NextUISpecFlowPOM.StepDefinitions
                 NUnit.Framework.Assert.Fail("The prices are correctly sorted in descending order. ");
             }
         }
+        [Then(@"User Select the Price range from ""([^""]*)""")]
+        public void ThenUserSelectThePriceRangeFrom(string priceRange)
+        {
+            skinCareProducts.ApplyPriceFilter(priceRange);
+        }
 
-        
+        [Then(@"User verify the products displayed are between the price range ""([^""]*)""")]
+        public void ThenUserVerifyTheProductsDisplayedAreBetweenThePriceRange(string priceRange)
+        {
+           
+        }
+        [Then(@"User login to Next shopping site")]
+        public void ThenUserLoginToNextShoppingSite()
+        {
+            homePage.Login();
+        }
+
+
 
     }
 }

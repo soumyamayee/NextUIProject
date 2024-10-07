@@ -60,5 +60,6 @@ namespace NextUISpecFlowPOM.Pages
         public void WaitFor() { 
             Thread.Sleep(1000);
         }
+       
     }
 }

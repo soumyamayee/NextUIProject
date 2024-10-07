@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace NextUISpecFlowPOM.Pages
 {
@@ -20,6 +22,12 @@ namespace NextUISpecFlowPOM.Pages
         }
         By womenSection = By.XPath("//div[text()='women']");
         By skinCareCatagory = By.XPath("//span[text()='Skincare']");
+        By myAccountBtn = By.XPath("//a[@data-testid='header-adaptive-my-account-icon-container-link']");
+        By emailIdInput = By.XPath("//input[@id='EmailOrAccountNumber']");
+        By passwordInput = By.XPath("//input[@id='Password']");
+        By signInBtn = By.XPath("//input[@name='SignInNow']");
+        By acceptCookieBtn = By.XPath("//button[@id='onetrust-accept-btn-handler']");
+        public static IConfiguration Configuration { get; private set; }
         public void NavigateToSection() {
             ClickOnElement(womenSection);
         }
@@ -30,6 +38,24 @@ namespace NextUISpecFlowPOM.Pages
             ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", driver.FindElement(skinCareCatagory));
             ClickOnElement(skinCareCatagory);
         }
+        public void Login()   
+        {           
+            ClickOnElement(acceptCookieBtn);            
+            var builder = new ConfigurationBuilder()
+             .SetBasePath(Directory.GetCurrentDirectory())
+             .AddJsonFile("configsettings.json", optional: false, reloadOnChange: true);
+
+            Configuration = builder.Build();
+            string email = Configuration["Credentials:Email"];
+            string password = Configuration["Credentials:Password"];
+           
+            ClickOnElement(myAccountBtn);
+            SendText(emailIdInput, email);
+            SendText(passwordInput, password);
+            ClickOnElement(signInBtn);
+
+        }
+
 
     }
 }
