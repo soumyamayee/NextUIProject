@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\NextUISpecFlowPOM.csproj": {}
+    "C:\\Soumya\\Projects\\NextUIProject\\NextUISpecFlowPOM.csproj": {}
   },
   "projects": {
-    "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\NextUISpecFlowPOM.csproj": {
+    "C:\\Soumya\\Projects\\NextUIProject\\NextUISpecFlowPOM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\NextUISpecFlowPOM.csproj",
+        "projectUniqueName": "C:\\Soumya\\Projects\\NextUIProject\\NextUISpecFlowPOM.csproj",
         "projectName": "NextUISpecFlowPOM",
-        "projectPath": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\NextUISpecFlowPOM.csproj",
+        "projectPath": "C:\\Soumya\\Projects\\NextUIProject\\NextUISpecFlowPOM.csproj",
         "packagesPath": "C:\\Users\\UNIVERSAL MOBILES\\.nuget\\packages\\",
-        "outputPath": "C:\\Soumya\\Projects\\NextUIProjectGITHUB\\obj\\",
+        "outputPath": "C:\\Soumya\\Projects\\NextUIProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UNIVERSAL MOBILES\\AppData\\Roaming\\NuGet\\NuGet.Config",

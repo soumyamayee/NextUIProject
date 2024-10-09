@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NextUISpecFlowPOM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72db7102490b148158513acd31e23aa173a705e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ba203e293c290ee6cdc3aee86dfb02dd52aac81")]
 [assembly: System.Reflection.AssemblyProductAttribute("NextUISpecFlowPOM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NextUISpecFlowPOM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
